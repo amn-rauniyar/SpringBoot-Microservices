@@ -1,0 +1,13 @@
+server:
+  port: 9002
+  
+spring:
+  application:
+    name: USER-SERVICE
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:9296
+  
+
+      
